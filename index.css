@@ -10,7 +10,6 @@ padding: 0;
 }
 
 nav{
-    background-color: blueviolet;
     display: flex;
     justify-content: space-around ;
     align-items: center;
@@ -20,7 +19,7 @@ nav{
 } 
 
 body{
-    background: url(bg.jpg) no-repeat
+    background: url(/img/bg.jpg) no-repeat
     center center;
     background-size: cover;
     height: 92vh;
