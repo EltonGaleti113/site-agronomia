@@ -3,10 +3,14 @@ text-decoration: none;
 margin: 0;
 padding: 0;
 }
+.marcas{
+    padding-top: 10px;
+}
 
 .marcas img{
     max-width: 100px;
     max-height: 100px;
+    padding: 2rem;
 }
 
 nav{
@@ -18,13 +22,19 @@ nav{
     height: 8vh;
 } 
 
-body{
-    background: url(/img/bg.jpg) no-repeat
-    center center;
+ body{
+/*    background: url() no-repeat
+    center center; */
     background-size: cover;
     height: 92vh;
 }
-
+.principal-image{
+    text-align: center;
+}
+.image{
+    width: 80%;
+    height: 25rem;
+}
 a {
     color: #ffff;
     transition: 0.3;
@@ -48,4 +58,20 @@ a:hover{
 .nav-list li{
     letter-spacing: 3px;
     margin-left: 32px;
+}
+
+.font-size-m{
+    font-size: 20px
+}
+
+.center-items{
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    background-color: #daffb3;
+}
+
+.footer{
+    background-color: #23232e;
 }
